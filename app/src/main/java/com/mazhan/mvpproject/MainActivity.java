@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity implements LoginView {
     private LoginPresenter presenter;
     private EditText username, password;
     private LoginPresenterImpl loginPresenter;
+    private String discription="更行内容";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
